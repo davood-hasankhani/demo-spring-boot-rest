@@ -20,8 +20,7 @@ public class Profile {
 	public Profile(Long id)
 	{ 
 		this.eId = id;
-	}
-	
+	}	
 	public Profile( String name, String phone,String address) 
 	{
 		super();

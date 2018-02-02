@@ -29,7 +29,6 @@ public class UserResourceService  {
 		userRepository.save(n);
 		return "Saved";
 	}
-
 	 @RequestMapping("/update")
 	 public @ResponseBody String updateUser(@RequestParam Long id , @RequestParam String username , @RequestParam String password)
 	 {

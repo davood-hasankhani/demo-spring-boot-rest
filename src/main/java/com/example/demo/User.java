@@ -26,6 +26,7 @@ public class User {
 	{ 
 		this.id = id;
 	}
+
 	public User(String userName, String password) {
 		super();
 		this.userName = userName;
